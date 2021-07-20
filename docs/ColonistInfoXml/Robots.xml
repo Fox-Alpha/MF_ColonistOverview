@@ -1,0 +1,222 @@
+        <c id="bot_walker" iid="12053">
+          <px>48</px>
+          <py>18.41313</py>
+          <color>#FF0000</color>
+          <hcolor>#FF0000</hcolor>
+          <acc_ids />
+          <cn>Worker Z-03295</cn>
+          <age>364</age>
+          <dead>False</dead>
+          <outfit_color_1>#FC9A02</outfit_color_1>
+          <outfit_color_2>#204388</outfit_color_2>
+          <job id="prof_builder" xp="0" />
+          <job id="prof_miner" xp="1291.284" idx="2" />
+          <job id="prof_technician" xp="1890.971" idx="0" />
+          <job id="prof_haul" xp="725.2021" />
+          <job id="prof_janitor" xp="5626.203" idx="1" />
+          <cmp tn="CAttributesColonist" iid="54015">
+            <attr id="c_health" cv="100" />
+            <attr id="c_power" cv="41.59" />
+            <attr id="c_smarts" cv="4" />
+            <attr id="c_muscles" cv="3" />
+            <attr id="c_athletics" cv="6">
+              <a_effect id="ae_ei_cr_athletics_2" />
+            </attr>
+            <attr id="rb_worker_movespeed" cv="1" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="65" />
+          </cmp>
+          <cmp tn="CInventory" iid="54017">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0" />
+          </cmp>
+          <cmp tn="CEquipment" iid="54016">
+            <eq idx="0" wfi="False">ei_cr_athletics_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="54018">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="54022" />
+        </c>
+        <c id="bot_walker" iid="12054">
+          <px>67</px>
+          <py>9</py>
+          <color>#FF0000</color>
+          <hcolor>#FF0000</hcolor>
+          <acc_ids />
+          <cn>Worker Z-03111</cn>
+          <age>375</age>
+          <dead>False</dead>
+          <outfit_color_1>#FC9A02</outfit_color_1>
+          <outfit_color_2>#204388</outfit_color_2>
+          <job id="prof_builder" xp="729.5626" idx="0" />
+          <job id="prof_miner" xp="1198.575" idx="2" />
+          <job id="prof_technician" xp="0" />
+          <job id="prof_haul" xp="4156.5" idx="1" />
+          <job id="prof_janitor" xp="26.25" />
+          <cmp tn="CAttributesColonist" iid="54092">
+            <attr id="c_health" cv="100" />
+            <attr id="c_power" cv="63.51" />
+            <attr id="c_smarts" cv="5" />
+            <attr id="c_muscles" cv="6" />
+            <attr id="c_athletics" cv="6">
+              <a_effect id="ae_ei_cr_athletics_2" />
+            </attr>
+            <attr id="rb_worker_movespeed" cv="1" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="80" />
+          </cmp>
+          <cmp tn="CInventory" iid="54094">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0" />
+          </cmp>
+          <cmp tn="CEquipment" iid="54093">
+            <eq idx="0" wfi="False">ei_cr_athletics_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="54095">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="54099" />
+        </c>
+        <c id="bot_walker" iid="12471">
+          <px>36</px>
+          <py>10</py>
+          <color>#FF0000</color>
+          <hcolor>#FF0000</hcolor>
+          <acc_ids />
+          <cn>Worker Z-02386</cn>
+          <age>395</age>
+          <dead>False</dead>
+          <outfit_color_1>#FC9A02</outfit_color_1>
+          <outfit_color_2>#204388</outfit_color_2>
+          <job id="prof_builder" xp="1386.5" idx="0" />
+          <job id="prof_miner" xp="1013.335" idx="2" />
+          <job id="prof_technician" xp="2910.112" idx="1" />
+          <job id="prof_haul" xp="0" />
+          <job id="prof_janitor" xp="20.8" />
+          <cmp tn="CAttributesColonist" iid="54405">
+            <attr id="c_health" cv="100" />
+            <attr id="c_power" cv="20.34" />
+            <attr id="c_smarts" cv="6" />
+            <attr id="c_muscles" cv="6" />
+            <attr id="c_athletics" cv="5">
+              <a_effect id="ae_ei_cr_athletics_2" />
+            </attr>
+            <attr id="rb_worker_movespeed" cv="1" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="80" />
+          </cmp>
+          <cmp tn="CInventory" iid="54407">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0" />
+          </cmp>
+          <cmp tn="CEquipment" iid="54406">
+            <eq idx="0" wfi="False">ei_cr_athletics_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="54408">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="54412" />
+        </c>
+        <c id="bot_walker" iid="12743">
+          <px>72</px>
+          <py>8</py>
+          <color>#FF0000</color>
+          <hcolor>#FF0000</hcolor>
+          <acc_ids />
+          <cn>Worker Z-05913</cn>
+          <age>374</age>
+          <dead>False</dead>
+          <outfit_color_1>#FC9A02</outfit_color_1>
+          <outfit_color_2>#204388</outfit_color_2>
+          <job id="prof_builder" xp="1872.768" idx="0" />
+          <job id="prof_miner" xp="2299.716" idx="2" />
+          <job id="prof_technician" xp="14.62501" />
+          <job id="prof_haul" xp="3603.665" idx="1" />
+          <job id="prof_janitor" xp="0" />
+          <cmp tn="CAttributesColonist" iid="54485">
+            <attr id="c_health" cv="100" />
+            <attr id="c_power" cv="59" />
+            <attr id="c_smarts" cv="8" />
+            <attr id="c_muscles" cv="6" />
+            <attr id="c_athletics" cv="2">
+              <a_effect id="ae_ei_cr_athletics_1" />
+            </attr>
+            <attr id="rb_worker_movespeed" cv="1" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="80" />
+          </cmp>
+          <cmp tn="CInventory" iid="54487">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0">
+              <inv_item n="meal_bread" qty="5" />
+            </inv>
+          </cmp>
+          <cmp tn="CEquipment" iid="54486">
+            <eq idx="0" wfi="False">ei_cr_athletics_1</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="54488">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="54492" />
+        </c>
+        <c id="bot_deepdriller" iid="2738">
+          <px>48</px>
+          <py>7.249544</py>
+          <color>#FF0000</color>
+          <hcolor>#FF0000</hcolor>
+          <acc_ids />
+          <cn>Driller Z-04745</cn>
+          <age>1</age>
+          <dead>False</dead>
+          <outfit_color_1>#FC9A02</outfit_color_1>
+          <outfit_color_2>#1A1A1A</outfit_color_2>
+          <job id="prof_miner" xp="5625.487" idx="1" />
+          <job id="prof_haul" xp="3598.631" idx="0" />
+          <cmp tn="CAttributesColonist" iid="54683">
+            <attr id="c_health" cv="100" />
+            <attr id="c_power" cv="49.75" />
+            <attr id="c_smarts" cv="5">
+              <a_effect id="ae_ei_cr_smarts_1" />
+            </attr>
+            <attr id="c_muscles" cv="7">
+              <a_effect id="ae_ei_cr_muscles_1" />
+            </attr>
+            <attr id="c_athletics" cv="6">
+              <a_effect id="ae_ei_cr_athletics_1" />
+            </attr>
+            <attr id="rb_driller_movespeed" cv="0.75" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="95" />
+          </cmp>
+          <cmp tn="CInventory" iid="54685">
+            <max_items>10</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0">
+              <inv_item n="res_fishchunks" qty="4" />
+            </inv>
+          </cmp>
+          <cmp tn="CEquipment" iid="54684">
+            <eq idx="0" wfi="False">ei_cr_smarts_1</eq>
+            <eq idx="1" wfi="False">ei_cr_muscles_1</eq>
+            <eq idx="2" wfi="False">ei_cr_athletics_1</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="54686">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="54690" />
+        </c>

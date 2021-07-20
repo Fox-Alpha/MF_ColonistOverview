@@ -1,0 +1,690 @@
+        <c id="female_colonist" iid="872">
+          <px>53</px>
+          <py>29</py>
+          <color>#EBC1A1</color>
+          <hcolor>#b18c57</hcolor>
+          <acc_ids />
+          <cn>Deb Grech</cn>
+          <age>27</age>
+          <dead>False</dead>
+          <outfit_color_1>#4D84EB</outfit_color_1>
+          <outfit_color_2>#999999</outfit_color_2>
+          <outfit_color_3>#1A1A1A</outfit_color_3>
+          <job id="prof_builder" xp="0" />
+          <job id="prof_miner" xp="0" />
+          <job id="prof_engineer" xp="5625.11" idx="0" />
+          <job id="prof_technician" xp="540.2419" />
+          <job id="prof_botonist" xp="5625.107" />
+          <job id="prof_cook" xp="5625.395" idx="1" />
+          <job id="prof_scientist" xp="0" />
+          <job id="prof_commofficer" xp="0" />
+          <job id="prof_doctor" xp="11.60312" />
+          <job id="prof_biologist" xp="628.95" />
+          <job id="prof_haul" xp="498.3162" idx="2" />
+          <job id="prof_janitor" xp="0" />
+          <cmp tn="CAttributesColonist" iid="54172">
+            <attr id="c_health" cv="92.49" />
+            <attr id="c_sleep" cv="48.24" />
+            <attr id="c_hunger" cv="65.78">
+              <a_effect id="hunger_nutrition" stack="2" />
+            </attr>
+            <attr id="c_stress" cv="0">
+              <a_effect id="ae_good_decor" />
+            </attr>
+            <attr id="c_smarts" cv="10" />
+            <attr id="c_muscles" cv="7.43">
+              <a_effect id="ae_quirk_muscles_neg_1" />
+              <a_effect id="ae_ei_ch_muscles_2" />
+            </attr>
+            <attr id="c_athletics" cv="3.3">
+              <a_effect id="ae_ei_ch_athletics_2" />
+            </attr>
+            <attr id="human_movespeed" cv="1.2" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="107" />
+          </cmp>
+          <cmp tn="CInventory" iid="54174">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0" />
+          </cmp>
+          <cmp tn="CEquipment" iid="54173">
+            <eq idx="0" wfi="False">ei_ch_muscles_2</eq>
+            <eq idx="1" wfi="False">ei_ch_athletics_2</eq>
+            <eq idx="2" wfi="True">ei_ch_smarts_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="54175">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="54179">
+            <quirk id="quirk_liked_food">
+              <item_id>res_tanglefruit</item_id>
+            </quirk>
+            <quirk id="quirk_muscles_neg_1" />
+            <quirk id="quirk_highstress_react_puker" />
+          </cmp>
+        </c>
+        <c id="female_colonist" iid="1564">
+          <px>50</px>
+          <py>14.46138</py>
+          <color>#CCA17A</color>
+          <hcolor>#69350d</hcolor>
+          <acc_ids />
+          <cn>Jen Meadows</cn>
+          <age>43</age>
+          <dead>False</dead>
+          <outfit_color_1>#4D84EB</outfit_color_1>
+          <outfit_color_2>#999999</outfit_color_2>
+          <outfit_color_3>#1A1A1A</outfit_color_3>
+          <job id="prof_builder" xp="115.8311" />
+          <job id="prof_miner" xp="0" />
+          <job id="prof_engineer" xp="5625.424" idx="2" />
+          <job id="prof_technician" xp="0" />
+          <job id="prof_botonist" xp="0" />
+          <job id="prof_cook" xp="5625.921" idx="1" />
+          <job id="prof_scientist" xp="5625.021" />
+          <job id="prof_commofficer" xp="0" />
+          <job id="prof_doctor" xp="0" />
+          <job id="prof_biologist" xp="1166.665" idx="0" />
+          <job id="prof_haul" xp="0" />
+          <job id="prof_janitor" xp="0" />
+          <cmp tn="CAttributesColonist" iid="54293">
+            <attr id="c_health" cv="105">
+              <a_effect id="ae_quirk_health_pos_1" />
+            </attr>
+            <attr id="c_sleep" cv="38.52" />
+            <attr id="c_hunger" cv="76.23">
+              <a_effect id="hunger_nutrition" stack="2" />
+              <a_effect id="ae_quirk_hunger_neg_1" />
+            </attr>
+            <attr id="c_stress" cv="0">
+              <a_effect id="ae_quirk_charming" expires="211510.8" />
+              <a_effect id="ae_good_decor" />
+              <a_effect id="hungry_normal" />
+            </attr>
+            <attr id="c_smarts" cv="10" />
+            <attr id="c_muscles" cv="7.46">
+              <a_effect id="ae_ei_ch_muscles_2" />
+            </attr>
+            <attr id="c_athletics" cv="5.38">
+              <a_effect id="ae_ei_ch_athletics_2" />
+            </attr>
+            <attr id="human_movespeed" cv="1.2" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="107" />
+          </cmp>
+          <cmp tn="CInventory" iid="54295">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0">
+              <inv_item n="res_greenalgae" qty="2" />
+              <inv_item n="res_fishchunks" qty="2" />
+              <inv_item n="meal_bread" qty="4" />
+            </inv>
+          </cmp>
+          <cmp tn="CEquipment" iid="54294">
+            <eq idx="0" wfi="False">ei_ch_athletics_2</eq>
+            <eq idx="2" wfi="False">ei_ch_muscles_2</eq>
+            <eq idx="1" wfi="True">ei_ch_smarts_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="54296">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="54300">
+            <quirk id="quirk_health_pos_1" />
+            <quirk id="quirk_hunger_neg_1" />
+            <quirk id="quirk_highstress_react_destruction" />
+          </cmp>
+        </c>
+        <c id="female_colonist" iid="28">
+          <px>46.734</px>
+          <py>32</py>
+          <color>#CCA17A</color>
+          <hcolor>#DBAE4F</hcolor>
+          <acc_ids />
+          <cn>Nao Laine</cn>
+          <age>34</age>
+          <dead>False</dead>
+          <outfit_color_1>#E7903C</outfit_color_1>
+          <outfit_color_2>#754004</outfit_color_2>
+          <outfit_color_3>#1A1A1A</outfit_color_3>
+          <job id="prof_builder" xp="0" />
+          <job id="prof_miner" xp="1591.238" />
+          <job id="prof_engineer" xp="5625.474" idx="0" />
+          <job id="prof_technician" xp="0" />
+          <job id="prof_botonist" xp="0" />
+          <job id="prof_cook" xp="5625.614" idx="2" />
+          <job id="prof_scientist" xp="0" />
+          <job id="prof_commofficer" xp="5625.012" idx="1" />
+          <job id="prof_doctor" xp="5.548701" />
+          <job id="prof_biologist" xp="94.86825" />
+          <job id="prof_haul" xp="248.5997" />
+          <job id="prof_janitor" xp="0" />
+          <cmp tn="CAttributesColonist" iid="54565">
+            <attr id="c_health" cv="100" />
+            <attr id="c_sleep" cv="50.4" />
+            <attr id="c_hunger" cv="69.29">
+              <a_effect id="hunger_nutrition" stack="2" />
+            </attr>
+            <attr id="c_stress" cv="0">
+              <a_effect id="ae_good_decor" />
+            </attr>
+            <attr id="c_smarts" cv="10" />
+            <attr id="c_muscles" cv="7.74">
+              <a_effect id="ae_quirk_muscles_neg_1" />
+              <a_effect id="ae_ei_ch_muscles_2" />
+            </attr>
+            <attr id="c_athletics" cv="7.24">
+              <a_effect id="ae_ei_ch_athletics_2" />
+            </attr>
+            <attr id="human_movespeed" cv="1.2" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="109" />
+          </cmp>
+          <cmp tn="CInventory" iid="54567">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0" />
+          </cmp>
+          <cmp tn="CEquipment" iid="54566">
+            <eq idx="0" wfi="False">ei_ch_athletics_2</eq>
+            <eq idx="2" wfi="False">ei_ch_muscles_2</eq>
+            <eq idx="1" wfi="True">ei_ch_smarts_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="54568">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="54572">
+            <quirk id="quirk_like_job" />
+            <quirk id="quirk_muscles_neg_1" />
+            <quirk id="quirk_highstress_react_pacing" />
+          </cmp>
+        </c>
+        <c id="female_colonist" iid="7949">
+          <px>50</px>
+          <py>24</py>
+          <color>#F8CEB2</color>
+          <hcolor>#7d4a1b</hcolor>
+          <acc_ids />
+          <cn>Shannon Robbin</cn>
+          <age>1</age>
+          <dead>False</dead>
+          <outfit_color_1>#FF0000</outfit_color_1>
+          <outfit_color_2>#FFFFFF</outfit_color_2>
+          <outfit_color_3>#1A1A1A</outfit_color_3>
+          <job id="prof_builder" xp="0" />
+          <job id="prof_miner" xp="0" />
+          <job id="prof_engineer" xp="4492.292" idx="0" />
+          <job id="prof_technician" xp="126.3849" idx="2" />
+          <job id="prof_botonist" xp="0" />
+          <job id="prof_cook" xp="0" />
+          <job id="prof_scientist" xp="0" />
+          <job id="prof_commofficer" xp="0" />
+          <job id="prof_doctor" xp="72.4437" idx="1" />
+          <job id="prof_biologist" xp="0" />
+          <job id="prof_haul" xp="0" />
+          <job id="prof_janitor" xp="0" />
+          <cmp tn="CAttributesColonist" iid="140159">
+            <attr id="c_health" cv="100" />
+            <attr id="c_sleep" cv="52.32" />
+            <attr id="c_hunger" cv="72.69">
+              <a_effect id="hunger_nutrition" />
+            </attr>
+            <attr id="c_stress" cv="0">
+              <a_effect id="ae_quirk_stress_neg_1" />
+              <a_effect id="ae_good_decor" />
+            </attr>
+            <attr id="c_smarts" cv="8.74" />
+            <attr id="c_muscles" cv="5.95">
+              <a_effect id="ae_ei_ch_muscles_2" />
+            </attr>
+            <attr id="c_athletics" cv="4.93">
+              <a_effect id="ae_ei_ch_athletics_2" />
+            </attr>
+            <attr id="human_movespeed" cv="1.2" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="100" />
+          </cmp>
+          <cmp tn="CInventory" iid="140161">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0" />
+          </cmp>
+          <cmp tn="CEquipment" iid="140160">
+            <eq idx="0" wfi="False">ei_ch_athletics_2</eq>
+            <eq idx="2" wfi="False">ei_ch_muscles_2</eq>
+            <eq idx="1" wfi="True">ei_ch_smarts_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="140162">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="140166">
+            <quirk id="quirk_love_job" />
+            <quirk id="quirk_stress_neg_1" />
+            <quirk id="quirk_highstress_react_destruction" />
+          </cmp>
+        </c>
+        <c id="female_colonist" iid="7904">
+          <px>45.29835</px>
+          <py>9.660624</py>
+          <color>#62442f</color>
+          <hcolor>#362827</hcolor>
+          <acc_ids />
+          <cn>Alice Meyer</cn>
+          <age>1</age>
+          <dead>False</dead>
+          <outfit_color_1>#E7903C</outfit_color_1>
+          <outfit_color_2>#754004</outfit_color_2>
+          <outfit_color_3>#1A1A1A</outfit_color_3>
+          <job id="prof_builder" xp="0" />
+          <job id="prof_miner" xp="2500" />
+          <job id="prof_engineer" xp="0" idx="0" />
+          <job id="prof_technician" xp="0" />
+          <job id="prof_botonist" xp="0" />
+          <job id="prof_cook" xp="1900.488" idx="1" />
+          <job id="prof_scientist" xp="0" />
+          <job id="prof_commofficer" xp="5625.308" idx="2" />
+          <job id="prof_doctor" xp="0" />
+          <job id="prof_biologist" xp="0" />
+          <job id="prof_haul" xp="0" />
+          <job id="prof_janitor" xp="0" />
+          <cmp tn="CAttributesColonist" iid="154863">
+            <attr id="c_health" cv="100" />
+            <attr id="c_sleep" cv="33.6" />
+            <attr id="c_hunger" cv="39.07">
+              <a_effect id="hunger_nutrition" />
+            </attr>
+            <attr id="c_stress" cv="0">
+              <a_effect id="ae_good_decor" />
+              <a_effect id="ae_eat_meal_room_pos3" expires="211460.5" />
+            </attr>
+            <attr id="c_smarts" cv="6.26" />
+            <attr id="c_muscles" cv="7.19">
+              <a_effect id="ae_ei_ch_muscles_2" />
+            </attr>
+            <attr id="c_athletics" cv="5.3">
+              <a_effect id="ae_ei_ch_athletics_2" />
+            </attr>
+            <attr id="human_movespeed" cv="1.2" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="106" />
+          </cmp>
+          <cmp tn="CInventory" iid="154865">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0">
+              <inv_item n="res_greenalgae" qty="4" />
+              <inv_item n="res_fishchunks" qty="4" />
+              <inv_item n="meal_bread" qty="8" />
+            </inv>
+          </cmp>
+          <cmp tn="CEquipment" iid="154864">
+            <eq idx="0" wfi="False">ei_ch_athletics_2</eq>
+            <eq idx="2" wfi="False">ei_ch_muscles_2</eq>
+            <eq idx="1" wfi="True">ei_ch_smarts_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="154866">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="154870">
+            <quirk id="quirk_charming" />
+            <quirk id="quirk_disliked_food">
+              <item_id>meal_emergencyration</item_id>
+            </quirk>
+            <quirk id="quirk_highstress_react_destruction" />
+          </cmp>
+        </c>
+        <c id="female_colonist" iid="7975">
+          <px>39</px>
+          <py>7</py>
+          <color>#a36f44</color>
+          <hcolor>#472a18</hcolor>
+          <acc_ids />
+          <cn>Noor King</cn>
+          <age>1</age>
+          <dead>False</dead>
+          <outfit_color_1>#4D84EB</outfit_color_1>
+          <outfit_color_2>#999999</outfit_color_2>
+          <outfit_color_3>#1A1A1A</outfit_color_3>
+          <job id="prof_builder" xp="0" />
+          <job id="prof_miner" xp="0" />
+          <job id="prof_engineer" xp="0" />
+          <job id="prof_technician" xp="0" />
+          <job id="prof_botonist" xp="572.2379" idx="1" />
+          <job id="prof_cook" xp="26.10001" idx="2" />
+          <job id="prof_scientist" xp="0" />
+          <job id="prof_commofficer" xp="0" />
+          <job id="prof_doctor" xp="0" />
+          <job id="prof_biologist" xp="2539.145" idx="0" />
+          <job id="prof_haul" xp="0" />
+          <job id="prof_janitor" xp="0" />
+          <cmp tn="CAttributesColonist" iid="154993">
+            <attr id="c_health" cv="100" />
+            <attr id="c_sleep" cv="39.72" />
+            <attr id="c_hunger" cv="82.55">
+              <a_effect id="hunger_nutrition" />
+              <a_effect id="ae_quirk_hunger_pos_1" />
+            </attr>
+            <attr id="c_stress" cv="0">
+              <a_effect id="ae_good_decor" />
+              <a_effect id="hungry_normal" />
+            </attr>
+            <attr id="c_smarts" cv="5.31" />
+            <attr id="c_muscles" cv="2">
+              <a_effect id="ae_ei_ch_muscles_2" />
+            </attr>
+            <attr id="c_athletics" cv="3.55">
+              <a_effect id="ae_ei_ch_athletics_2" />
+            </attr>
+            <attr id="human_movespeed" cv="1.2">
+              <a_effect id="ae_quirk_movespeed_neg_1" />
+            </attr>
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="80" />
+          </cmp>
+          <cmp tn="CInventory" iid="154995">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0" />
+          </cmp>
+          <cmp tn="CEquipment" iid="154994">
+            <eq idx="0" wfi="False">ei_ch_athletics_2</eq>
+            <eq idx="2" wfi="False">ei_ch_muscles_2</eq>
+            <eq idx="1" wfi="True">ei_ch_smarts_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="154996">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="155000">
+            <quirk id="quirk_hunger_pos_1" />
+            <quirk id="quirk_movespeed_neg_1" />
+            <quirk id="quirk_highstress_react_puker" />
+          </cmp>
+        </c>
+        <c id="female_colonist" iid="5726">
+          <px>40</px>
+          <py>31</py>
+          <color>#F8CEB2</color>
+          <hcolor>#cdb774</hcolor>
+          <acc_ids />
+          <cn>Kat Scott</cn>
+          <age>1</age>
+          <dead>False</dead>
+          <outfit_color_1>#9C8762</outfit_color_1>
+          <outfit_color_2>#2E375B</outfit_color_2>
+          <outfit_color_3>#2E375B</outfit_color_3>
+          <job id="prof_builder" xp="0" />
+          <job id="prof_miner" xp="0" />
+          <job id="prof_engineer" xp="0" />
+          <job id="prof_technician" xp="0" />
+          <job id="prof_botonist" xp="1426.723" idx="0" />
+          <job id="prof_cook" xp="21.6" idx="2" />
+          <job id="prof_scientist" xp="0" />
+          <job id="prof_commofficer" xp="0" />
+          <job id="prof_doctor" xp="0" />
+          <job id="prof_biologist" xp="2.8125" idx="1" />
+          <job id="prof_haul" xp="0" />
+          <job id="prof_janitor" xp="81.06946" />
+          <cmp tn="CAttributesColonist" iid="169542">
+            <attr id="c_health" cv="100" />
+            <attr id="c_sleep" cv="52.2" />
+            <attr id="c_hunger" cv="8.96">
+              <a_effect id="hunger_nutrition" />
+            </attr>
+            <attr id="c_stress" cv="0">
+              <a_effect id="ae_eat_meal_room_pos3" expires="211651.4" />
+              <a_effect id="eat_meal" expires="211495.5" />
+              <a_effect id="ae_poor_decor" />
+            </attr>
+            <attr id="c_smarts" cv="5" />
+            <attr id="c_muscles" cv="4">
+              <a_effect id="ae_quirk_muscles_neg_1" />
+              <a_effect id="ae_ei_ch_muscles_2" />
+            </attr>
+            <attr id="c_athletics" cv="4">
+              <a_effect id="ae_ei_ch_athletics_2" />
+            </attr>
+            <attr id="human_movespeed" cv="1.2" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="90" />
+          </cmp>
+          <cmp tn="CInventory" iid="169544">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0" />
+          </cmp>
+          <cmp tn="CEquipment" iid="169543">
+            <eq idx="0" wfi="False">ei_ch_athletics_2</eq>
+            <eq idx="2" wfi="False">ei_ch_muscles_2</eq>
+            <eq idx="1" wfi="True">ei_ch_smarts_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="169545">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="169549">
+            <quirk id="quirk_charming" />
+            <quirk id="quirk_muscles_neg_1" />
+            <quirk id="quirk_highstress_react_destruction" />
+          </cmp>
+        </c>
+        <c id="female_colonist" iid="1337">
+          <px>61</px>
+          <py>7</py>
+          <color>#62442f</color>
+          <hcolor>#362827</hcolor>
+          <acc_ids />
+          <cn>Talia Mason</cn>
+          <age>1</age>
+          <dead>False</dead>
+          <outfit_color_1>#6B4DA7</outfit_color_1>
+          <outfit_color_2>#B6A6D3</outfit_color_2>
+          <outfit_color_3>#1A1A1A</outfit_color_3>
+          <job id="prof_builder" xp="0" idx="2" />
+          <job id="prof_miner" xp="0" />
+          <job id="prof_engineer" xp="1405.607" idx="0" />
+          <job id="prof_technician" xp="50.83665" idx="1" />
+          <job id="prof_botonist" xp="0" />
+          <job id="prof_cook" xp="0" />
+          <job id="prof_scientist" xp="0" />
+          <job id="prof_commofficer" xp="69.44446" />
+          <job id="prof_doctor" xp="0" />
+          <job id="prof_biologist" xp="0" />
+          <job id="prof_haul" xp="0" />
+          <job id="prof_janitor" xp="0" />
+          <cmp tn="CAttributesColonist" iid="245377">
+            <attr id="c_health" cv="100" />
+            <attr id="c_sleep" cv="54.91">
+              <a_effect id="ae_quirk_sleep_neg_1b" />
+            </attr>
+            <attr id="c_hunger" cv="61.08">
+              <a_effect id="hunger_nutrition" />
+            </attr>
+            <attr id="c_stress" cv="0">
+              <a_effect id="ae_good_decor" />
+            </attr>
+            <attr id="c_smarts" cv="5.31" />
+            <attr id="c_muscles" cv="4.08">
+              <a_effect id="ae_ei_ch_muscles_2" />
+            </attr>
+            <attr id="c_athletics" cv="4.93">
+              <a_effect id="ae_ei_ch_athletics_2" />
+            </attr>
+            <attr id="human_movespeed" cv="1.2" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="90" />
+          </cmp>
+          <cmp tn="CInventory" iid="245379">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0" />
+          </cmp>
+          <cmp tn="CEquipment" iid="245378">
+            <eq idx="0" wfi="False">ei_ch_athletics_2</eq>
+            <eq idx="2" wfi="False">ei_ch_muscles_2</eq>
+            <eq idx="1" wfi="True">ei_ch_smarts_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="245380">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="245384">
+            <quirk id="quirk_like_job" />
+            <quirk id="quirk_sleep_neg_1b" />
+            <quirk id="quirk_highstress_react_puker" />
+          </cmp>
+        </c>
+        <c id="female_colonist" iid="8375">
+          <px>54</px>
+          <py>29.30462</py>
+          <color>#be8f67</color>
+          <hcolor>#cdb774</hcolor>
+          <acc_ids>cacc_female_glasses_01</acc_ids>
+          <cn>Wyllo Kennedy</cn>
+          <age>1</age>
+          <dead>False</dead>
+          <outfit_color_1>#FF0000</outfit_color_1>
+          <outfit_color_2>#FFFFFF</outfit_color_2>
+          <outfit_color_3>#1A1A1A</outfit_color_3>
+          <job id="prof_builder" xp="0" />
+          <job id="prof_miner" xp="0" />
+          <job id="prof_engineer" xp="0" />
+          <job id="prof_technician" xp="0" />
+          <job id="prof_botonist" xp="0" />
+          <job id="prof_cook" xp="0" />
+          <job id="prof_scientist" xp="0" />
+          <job id="prof_commofficer" xp="0" />
+          <job id="prof_doctor" xp="626" idx="0" />
+          <job id="prof_biologist" xp="0" />
+          <job id="prof_haul" xp="0" />
+          <job id="prof_janitor" xp="0" />
+          <cmp tn="CAttributesColonist" iid="278305">
+            <attr id="c_health" cv="100" />
+            <attr id="c_sleep" cv="50.64" />
+            <attr id="c_hunger" cv="95.77">
+              <a_effect id="hunger_nutrition" />
+            </attr>
+            <attr id="c_stress" cv="0">
+              <a_effect id="ae_good_decor" />
+              <a_effect id="hungry_normal" />
+            </attr>
+            <attr id="c_smarts" cv="8.65">
+              <a_effect id="ae_quirk_smarts_pos_1" />
+            </attr>
+            <attr id="c_muscles" cv="3.6">
+              <a_effect id="ae_ei_ch_muscles_2" />
+            </attr>
+            <attr id="c_athletics" cv="6.72">
+              <a_effect id="ae_ei_ch_athletics_2" />
+            </attr>
+            <attr id="human_movespeed" cv="1.2" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="88" />
+          </cmp>
+          <cmp tn="CInventory" iid="278307">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0">
+              <inv_item n="meal_sushi" qty="1" />
+            </inv>
+          </cmp>
+          <cmp tn="CEquipment" iid="278306">
+            <eq idx="0" wfi="False">ei_ch_athletics_2</eq>
+            <eq idx="2" wfi="False">ei_ch_muscles_2</eq>
+            <eq idx="1" wfi="True">ei_ch_smarts_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="278308">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="278312">
+            <quirk id="quirk_smarts_pos_1" />
+            <quirk id="quirk_zoophobia" />
+            <quirk id="quirk_highstress_react_destruction" />
+          </cmp>
+        </c>
+        <c id="female_colonist" iid="1874">
+          <px>47</px>
+          <py>15</py>
+          <color>#EBC1A1</color>
+          <hcolor>#7d4a1b</hcolor>
+          <acc_ids />
+          <cn>Amy Morel</cn>
+          <age>1</age>
+          <dead>False</dead>
+          <outfit_color_1>#02FEFF</outfit_color_1>
+          <outfit_color_2>#FFFFFF</outfit_color_2>
+          <outfit_color_3>#1A1A1A</outfit_color_3>
+          <job id="prof_builder" xp="0" />
+          <job id="prof_miner" xp="0" />
+          <job id="prof_engineer" xp="0" />
+          <job id="prof_technician" xp="0" />
+          <job id="prof_botonist" xp="0" />
+          <job id="prof_cook" xp="0" />
+          <job id="prof_scientist" xp="1111.111" idx="0" />
+          <job id="prof_commofficer" xp="0" />
+          <job id="prof_doctor" xp="0" />
+          <job id="prof_biologist" xp="0" />
+          <job id="prof_haul" xp="0" />
+          <job id="prof_janitor" xp="0" />
+          <cmp tn="CAttributesColonist" iid="278476">
+            <attr id="c_health" cv="100">
+              <a_effect id="ae_quirk_health_neg_1" />
+            </attr>
+            <attr id="c_sleep" cv="59.52" />
+            <attr id="c_hunger" cv="83.13">
+              <a_effect id="hunger_nutrition" />
+            </attr>
+            <attr id="c_stress" cv="0">
+              <a_effect id="ae_good_decor" />
+              <a_effect id="hungry_normal" />
+            </attr>
+            <attr id="c_smarts" cv="7.95" />
+            <attr id="c_muscles" cv="5.18">
+              <a_effect id="ae_ei_ch_muscles_2" />
+            </attr>
+            <attr id="c_athletics" cv="5.61">
+              <a_effect id="ae_ei_ch_athletics_2" />
+            </attr>
+            <attr id="human_movespeed" cv="1.2" />
+            <attr id="c_workspeed" cv="1" />
+            <attr id="cinventory_maxitems" cv="96" />
+          </cmp>
+          <cmp tn="CInventory" iid="278478">
+            <max_items>100</max_items>
+            <global>False</global>
+            <priority>3</priority>
+            <inv iotype="0" />
+          </cmp>
+          <cmp tn="CEquipment" iid="278477">
+            <eq idx="0" wfi="False">ei_ch_athletics_2</eq>
+            <eq idx="2" wfi="False">ei_ch_muscles_2</eq>
+            <eq idx="1" wfi="True">ei_ch_smarts_2</eq>
+          </cmp>
+          <cmp tn="CVehiclePassenger" iid="278479">
+            <boarded>False</boarded>
+            <v_id>0</v_id>
+          </cmp>
+          <cmp tn="CColonistQuirks" iid="278483">
+            <quirk id="quirk_liked_food">
+              <item_id>meal_fishnchips</item_id>
+            </quirk>
+            <quirk id="quirk_health_neg_1" />
+            <quirk id="quirk_highstress_react_fetalsit" />
+          </cmp>
+        </c>
